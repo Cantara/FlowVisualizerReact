@@ -1,0 +1,28 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:flowtype/recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react"
+  ],
+  "globals": {
+    "SyntheticInputEvent": false
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "flowtype",
+    "prettier"
+  ],
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "settings": {
+    "import/ignore": ["(scss|css)$"]
+  }
+}
