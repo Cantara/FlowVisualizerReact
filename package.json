@@ -6,7 +6,7 @@
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-     "url": "https://github.com/Cantara/FlowVisualizerReact.git"
+    "url": "https://github.com/Cantara/FlowVisualizerReact.git"
   },
   "author": "Cantara AS",
   "license": "Apache-2.0",
@@ -29,7 +29,8 @@
     "cytoscape": "3.1.4",
     "cytoscape-dagre": "1.6.0",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "babel-core": "6.24.1",
@@ -57,7 +58,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src",
     "flow": "flow",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "lint-staged": {
     "*.js": [
@@ -67,5 +70,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "snyk": true
 }
