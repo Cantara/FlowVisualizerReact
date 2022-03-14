@@ -401,7 +401,7 @@ babel-plugin-transform-async-to-generator@^6.22.0:
     babel-plugin-syntax-async-functions "^6.8.0"
     babel-runtime "^6.22.0"
 
-babel-plugin-transform-class-properties@6.24.1, babel-plugin-transform-class-properties@^6.24.1:
+babel-plugin-transform-class-properties@6.24.1:
   version "6.24.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.24.1.tgz#6a79763ea61d33d36f37b611aa9def81a81b46ac"
   dependencies:
@@ -697,9 +697,10 @@ babel-preset-env@1.5.2:
     invariant "^2.2.2"
     semver "^5.3.0"
 
-babel-preset-env@^1.6.0:
+babel-preset-env@1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-1.6.0.tgz#2de1c782a780a0a5d605d199c957596da43c44e4"
+  integrity sha512-OVgtQRuOZKckrILgMA5rvctvFZPv72Gua9Rt006AiPoB0DJKGN07UmaQA+qRrYgK71MVct8fFhT0EyNWYorVew==
   dependencies:
     babel-plugin-check-es2015-constants "^6.22.0"
     babel-plugin-syntax-trailing-function-commas "^6.22.0"
@@ -732,9 +733,10 @@ babel-preset-env@^1.6.0:
     invariant "^2.2.2"
     semver "^5.3.0"
 
-babel-preset-flow@^6.23.0:
+babel-preset-flow@6.23.0, babel-preset-flow@^6.23.0:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel-preset-flow/-/babel-preset-flow-6.23.0.tgz#e71218887085ae9a24b5be4169affb599816c49d"
+  integrity sha1-5xIYiHCFrpoktb5Baa/7WZgWxJ0=
   dependencies:
     babel-plugin-transform-flow-strip-types "^6.22.0"
 
@@ -744,9 +746,10 @@ babel-preset-jest@^20.0.3:
   dependencies:
     babel-plugin-jest-hoist "^20.0.3"
 
-babel-preset-react-app@^3.0.0:
+babel-preset-react-app@3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/babel-preset-react-app/-/babel-preset-react-app-3.0.2.tgz#d062fca5dce68ed9c2615f2fecbc08861720f8e5"
+  integrity sha512-UwRU1ppOl1JQEXnCXy8aFsKtvSkn1pNQULveOGZsytfrlHUYu9gU+D+zPYY6yMcAtbvQ4hFs+uA0bpPNwR9++Q==
   dependencies:
     babel-plugin-dynamic-import-node "1.0.2"
     babel-plugin-syntax-dynamic-import "6.18.0"
@@ -784,9 +787,10 @@ babel-register@^6.24.1:
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
-babel-runtime@^6.18.0, babel-runtime@^6.2.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0:
+babel-runtime@6.25.0, babel-runtime@^6.18.0, babel-runtime@^6.2.0, babel-runtime@^6.22.0:
   version "6.25.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.25.0.tgz#33b98eaa5d482bb01a8d1aa6b437ad2b01aec41c"
+  integrity sha1-M7mOql1IK7AajRqmtDetKwGuxBw=
   dependencies:
     core-js "^2.4.0"
     regenerator-runtime "^0.10.0"
@@ -1318,15 +1322,17 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-prettier@^2.3.0:
+eslint-config-prettier@2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-2.3.0.tgz#b75b1eabea0c8b97b34403647ee25db349b9d8a0"
+  integrity sha1-t1seq+oMi5ezRANkfuJds0m52KA=
   dependencies:
     get-stdin "^5.0.1"
 
-eslint-config-react-app@^1.0.4:
+eslint-config-react-app@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-1.0.5.tgz#98337597bc01cc22991fcbdda07451f3b4511718"
+  integrity sha1-mDN1l7wBzCKZH8vdoHRR87RRFxg=
 
 eslint-import-resolver-node@^0.2.0:
   version "0.2.3"
@@ -1336,9 +1342,10 @@ eslint-import-resolver-node@^0.2.0:
     object-assign "^4.0.1"
     resolve "^1.1.6"
 
-eslint-import-resolver-webpack@^0.8.3:
+eslint-import-resolver-webpack@0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-webpack/-/eslint-import-resolver-webpack-0.8.3.tgz#ad61e28df378a474459d953f246fd43f92675385"
+  integrity sha512-xLSNz4KbWvb8KrkDqWSmgmztq8uXq7R/rviOw1DYrh3Luxc8vpMnwO4hOt9Eot45VBiyjt1PxidrvJbZIWlItA==
   dependencies:
     array-find "^1.0.0"
     debug "^2.6.8"
@@ -1391,9 +1398,10 @@ eslint-plugin-import@2.2.0:
     minimatch "^3.0.3"
     pkg-up "^1.0.0"
 
-eslint-plugin-jsx-a11y@^5.0.0:
+eslint-plugin-jsx-a11y@5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-5.1.1.tgz#5c96bb5186ca14e94db1095ff59b3e2bd94069b1"
+  integrity sha512-5I9SpoP7gT4wBFOtXT8/tXNPYohHBVfyVfO17vkbC7r9kEIxYJF12D3pKqhk8+xnk12rfxKClS3WCFpVckFTPQ==
   dependencies:
     aria-query "^0.7.0"
     array-includes "^3.0.3"
@@ -1403,9 +1411,10 @@ eslint-plugin-jsx-a11y@^5.0.0:
     emoji-regex "^6.1.0"
     jsx-ast-utils "^1.4.0"
 
-eslint-plugin-prettier@^2.1.2:
+eslint-plugin-prettier@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-2.1.2.tgz#4b90f4ee7f92bfbe2e926017e1ca40eb628965ea"
+  integrity sha1-S5D07n+Sv74ukmAX4cpA62KJZeo=
   dependencies:
     fast-diff "^1.1.1"
     jest-docblock "^20.0.1"
@@ -1611,9 +1620,10 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     write "^0.2.1"
 
-flow-bin@^0.48.0:
+flow-bin@0.48.0:
   version "0.48.0"
   resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.48.0.tgz#72d075143524358db8901525e3c784dc13a7c7ee"
+  integrity sha1-ctB1FDUkNY24kBUl48eE3BOnx+4=
 
 for-in@^1.0.1:
   version "1.0.2"
@@ -2499,7 +2509,7 @@ randombytes@^2.0.0, randombytes@^2.0.1:
   dependencies:
     safe-buffer "^5.1.0"
 
-react-dom@^15.6.1:
+react-dom@15.7.0:
   version "15.7.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.7.0.tgz#39106dee996d0742fb0f43d567ef8b8153483ab2"
   integrity sha512-mpjXqC2t1FuYsILOLCj0kg6pbg460byZkVA/80VtDmKU/pYmoTdHOtaMcTRIDiyXLz4sIur0cQ04nOC6iGndJg==
@@ -2509,7 +2519,7 @@ react-dom@^15.6.1:
     object-assign "^4.1.0"
     prop-types "^15.5.10"
 
-react@^15.6.1:
+react@15.7.0:
   version "15.7.0"
   resolved "https://registry.yarnpkg.com/react/-/react-15.7.0.tgz#10308fd42ac6912a250bf00380751abc41ac7106"
   integrity sha512-5/MMRYmpmM0sMTHGLossnJCrmXQIiJilD6y3YN3TzAwGFj6zdnMtFv6xmi65PHKRV+pehIHpT7oy67Sr6s9AHA==
