@@ -1097,9 +1097,10 @@ cytoscape-dagre@2.2.2:
   dependencies:
     dagre "^0.8.2"
 
-cytoscape@3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/cytoscape/-/cytoscape-3.1.4.tgz#f9bc078f7892bc66fc489cfae0f269693ed63665"
+cytoscape@3.30.3:
+  version "3.30.3"
+  resolved "https://registry.yarnpkg.com/cytoscape/-/cytoscape-3.30.3.tgz#1b2726bbfa6673f643488a81147354841c252352"
+  integrity sha512-HncJ9gGJbVtw7YXtIs3+6YAFSSiKsom0amWc33Z7QbylbY2JGMrA0yz4EwrdTScZxnwclXeEZHzO5pxoy0ZE4g==
 
 d@1:
   version "1.0.0"
