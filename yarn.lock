@@ -1090,12 +1090,12 @@ crypto-browserify@^3.11.0:
     public-encrypt "^4.0.0"
     randombytes "^2.0.0"
 
-cytoscape-dagre@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/cytoscape-dagre/-/cytoscape-dagre-2.2.2.tgz#5f32a85c0ba835f167efee531df9e89ac58ff411"
-  integrity sha512-zsg36qNwua/L2stJSWkcbSDcvW3E6VZf6KRe6aLnQJxuXuz89tMqI5EVYVKEcNBgzTEzFMFv0PE3T0nD4m6VDw==
+cytoscape-dagre@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/cytoscape-dagre/-/cytoscape-dagre-2.4.0.tgz#abf145b1c675afe3b7d531166e6727dc39dc350d"
+  integrity sha512-jfOtKzKduCnruBs3YMHS9kqWjZKqvp6loSJwlotPO5pcU4wLUhkx7ZBIyW3VWZXa8wfkGxv/zhWoBxWtYrUxKQ==
   dependencies:
-    dagre "^0.8.2"
+    dagre "^0.8.5"
 
 cytoscape@3.1.4:
   version "3.1.4"
@@ -1107,7 +1107,7 @@ d@1:
   dependencies:
     es5-ext "^0.10.9"
 
-dagre@^0.8.2:
+dagre@^0.8.5:
   version "0.8.5"
   resolved "https://registry.yarnpkg.com/dagre/-/dagre-0.8.5.tgz#ba30b0055dac12b6c1fcc247817442777d06afee"
   integrity sha512-/aTqmnRta7x7MCCpExk7HQL2O4owCT2h8NT//9I1OQ9vt29Pa0BzSAkR5lwFUcQ7491yVi/3CXU9jQ5o0Mn2Sw==
